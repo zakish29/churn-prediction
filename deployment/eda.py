@@ -22,7 +22,7 @@ def run():
     st.subheader('Churn')
 
     # Menambahkan gambar
-    image = Image.open('growth.jpg')
+    image = Image.open('./growth.jpg')
     st.image(image)
 
     # Menambahkan deskripsi
@@ -42,7 +42,7 @@ By building an accurate ANN model, we can identify the customers most likely to 
 
     st.write('## Table')
     # Show DF
-    df = pd.read_csv('churn.csv')
+    df = pd.read_csv('./churn.csv')
     st.dataframe(df)
     
     st.write('## Churn Trend in Year and Month ')

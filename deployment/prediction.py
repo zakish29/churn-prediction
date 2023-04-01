@@ -13,7 +13,7 @@ from keras import layers
 with open('pipeline.pkl', 'rb') as file_1:
   model_pipeline = pickle.load(file_1)
 
-model_churn = load_model('churn_model.h5')
+model_churn = load_model('./churn_model.h5')
 
 
 
